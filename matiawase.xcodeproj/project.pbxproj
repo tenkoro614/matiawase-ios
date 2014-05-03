@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0F80531914FAA3003EE9D1 /* daughter_b.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0F804F1914FAA3003EE9D1 /* daughter_b.png */; };
+		AF0F80541914FAA3003EE9D1 /* father_b.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0F80501914FAA3003EE9D1 /* father_b.png */; };
+		AF0F80551914FAA3003EE9D1 /* mother_b.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0F80511914FAA3003EE9D1 /* mother_b.png */; };
+		AF0F80561914FAA3003EE9D1 /* sun_b.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0F80521914FAA3003EE9D1 /* sun_b.png */; };
+		AF3A2DCA1913BE8D0084FE78 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3A2DC91913BE8D0084FE78 /* GoogleMaps.framework */; };
+		AF3A2DCC1913BEE00084FE78 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF3A2DCB1913BEE00084FE78 /* GoogleMaps.bundle */; };
+		AF8416AF18C4C43800782E5C /* father.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8416AB18C4C43800782E5C /* father.png */; };
+		AF8416B018C4C43800782E5C /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8416AC18C4C43800782E5C /* sun.png */; };
+		AF8416B118C4C43800782E5C /* daughter.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8416AD18C4C43800782E5C /* daughter.png */; };
+		AF8416B218C4C43800782E5C /* mother.png in Resources */ = {isa = PBXBuildFile; fileRef = AF8416AE18C4C43800782E5C /* mother.png */; };
+		AF8416B818C4CF4100782E5C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8416B718C4CF4100782E5C /* SettingViewController.m */; };
+		AFD506A218BF88C8007C7A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506A118BF88C8007C7A0B /* Foundation.framework */; };
+		AFD506A418BF88C8007C7A0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506A318BF88C8007C7A0B /* CoreGraphics.framework */; };
+		AFD506A618BF88C8007C7A0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506A518BF88C8007C7A0B /* UIKit.framework */; };
+		AFD506AC18BF88C8007C7A0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFD506AA18BF88C8007C7A0B /* InfoPlist.strings */; };
+		AFD506AE18BF88C8007C7A0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD506AD18BF88C8007C7A0B /* main.m */; };
+		AFD506B218BF88C8007C7A0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD506B118BF88C8007C7A0B /* AppDelegate.m */; };
+		AFD506B518BF88C8007C7A0B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD506B318BF88C8007C7A0B /* Main_iPhone.storyboard */; };
+		AFD506B818BF88C8007C7A0B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD506B618BF88C8007C7A0B /* Main_iPad.storyboard */; };
+		AFD506BB18BF88C8007C7A0B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD506BA18BF88C8007C7A0B /* MainViewController.m */; };
+		AFD506BD18BF88C8007C7A0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD506BC18BF88C8007C7A0B /* Images.xcassets */; };
+		AFD506C418BF88C9007C7A0B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506C318BF88C9007C7A0B /* XCTest.framework */; };
+		AFD506C518BF88C9007C7A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506A118BF88C8007C7A0B /* Foundation.framework */; };
+		AFD506C618BF88C9007C7A0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506A518BF88C8007C7A0B /* UIKit.framework */; };
+		AFD506CE18BF88C9007C7A0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFD506CC18BF88C9007C7A0B /* InfoPlist.strings */; };
+		AFD506D018BF88C9007C7A0B /* mytestappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD506CF18BF88C9007C7A0B /* mytestappTests.m */; };
+		AFD506EB18BF8A5C007C7A0B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506DF18BF8A5C007C7A0B /* AVFoundation.framework */; };
+		AFD506EC18BF8A5C007C7A0B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506E018BF8A5C007C7A0B /* CoreData.framework */; };
+		AFD506ED18BF8A5C007C7A0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506E118BF8A5C007C7A0B /* CoreLocation.framework */; };
+		AFD506EE18BF8A5C007C7A0B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506E218BF8A5C007C7A0B /* CoreText.framework */; };
+		AFD506EF18BF8A5C007C7A0B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506E318BF8A5C007C7A0B /* GLKit.framework */; };
+		AFD506F018BF8A5C007C7A0B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506E418BF8A5C007C7A0B /* ImageIO.framework */; };
+		AFD506F118BF8A5C007C7A0B /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506E518BF8A5C007C7A0B /* libicucore.dylib */; };
+		AFD506F218BF8A5C007C7A0B /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506E618BF8A5C007C7A0B /* libstdc++.dylib */; };
+		AFD506F318BF8A5C007C7A0B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506E718BF8A5C007C7A0B /* libz.dylib */; };
+		AFD506F418BF8A5C007C7A0B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506E818BF8A5C007C7A0B /* OpenGLES.framework */; };
+		AFD506F518BF8A5C007C7A0B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506E918BF8A5C007C7A0B /* QuartzCore.framework */; };
+		AFD506F618BF8A5C007C7A0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD506EA18BF8A5C007C7A0B /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFD506C718BF88C9007C7A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD5069618BF88C8007C7A0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD5069D18BF88C8007C7A0B;
+			remoteInfo = mytestapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF0F804F1914FAA3003EE9D1 /* daughter_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = daughter_b.png; path = images/daughter_b.png; sourceTree = SOURCE_ROOT; };
+		AF0F80501914FAA3003EE9D1 /* father_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = father_b.png; path = images/father_b.png; sourceTree = SOURCE_ROOT; };
+		AF0F80511914FAA3003EE9D1 /* mother_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mother_b.png; path = images/mother_b.png; sourceTree = SOURCE_ROOT; };
+		AF0F80521914FAA3003EE9D1 /* sun_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun_b.png; path = images/sun_b.png; sourceTree = SOURCE_ROOT; };
+		AF3A2DC91913BE8D0084FE78 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = "GoogleMaps-iOS-1.7.0/GoogleMaps.framework"; sourceTree = "<group>"; };
+		AF3A2DCB1913BEE00084FE78 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "GoogleMaps-iOS-1.7.0/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		AF8416AB18C4C43800782E5C /* father.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = father.png; sourceTree = "<group>"; };
+		AF8416AC18C4C43800782E5C /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		AF8416AD18C4C43800782E5C /* daughter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daughter.png; sourceTree = "<group>"; };
+		AF8416AE18C4C43800782E5C /* mother.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mother.png; sourceTree = "<group>"; };
+		AF8416B618C4CF4100782E5C /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		AF8416B718C4CF4100782E5C /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		AFD5069E18BF88C8007C7A0B /* matiawase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matiawase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD506A118BF88C8007C7A0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFD506A318BF88C8007C7A0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFD506A518BF88C8007C7A0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFD506A918BF88C8007C7A0B /* matiawase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "matiawase-Info.plist"; sourceTree = "<group>"; };
+		AFD506AB18BF88C8007C7A0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFD506AD18BF88C8007C7A0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFD506AF18BF88C8007C7A0B /* matiawase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "matiawase-Prefix.pch"; sourceTree = "<group>"; };
+		AFD506B018BF88C8007C7A0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFD506B118BF88C8007C7A0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFD506B418BF88C8007C7A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		AFD506B718BF88C8007C7A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		AFD506B918BF88C8007C7A0B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AFD506BA18BF88C8007C7A0B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AFD506BC18BF88C8007C7A0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFD506C218BF88C9007C7A0B /* matiawaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = matiawaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD506C318BF88C9007C7A0B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AFD506CB18BF88C9007C7A0B /* MatiawaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatiawaseTests-Info.plist"; sourceTree = "<group>"; };
+		AFD506CD18BF88C9007C7A0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFD506CF18BF88C9007C7A0B /* mytestappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mytestappTests.m; sourceTree = "<group>"; };
+		AFD506DF18BF8A5C007C7A0B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AFD506E018BF8A5C007C7A0B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AFD506E118BF8A5C007C7A0B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AFD506E218BF8A5C007C7A0B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		AFD506E318BF8A5C007C7A0B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		AFD506E418BF8A5C007C7A0B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		AFD506E518BF8A5C007C7A0B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		AFD506E618BF8A5C007C7A0B /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		AFD506E718BF8A5C007C7A0B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AFD506E818BF8A5C007C7A0B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AFD506E918BF8A5C007C7A0B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AFD506EA18BF8A5C007C7A0B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD5069B18BF88C8007C7A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD506EB18BF8A5C007C7A0B /* AVFoundation.framework in Frameworks */,
+				AFD506EC18BF8A5C007C7A0B /* CoreData.framework in Frameworks */,
+				AFD506ED18BF8A5C007C7A0B /* CoreLocation.framework in Frameworks */,
+				AFD506EE18BF8A5C007C7A0B /* CoreText.framework in Frameworks */,
+				AFD506EF18BF8A5C007C7A0B /* GLKit.framework in Frameworks */,
+				AFD506F018BF8A5C007C7A0B /* ImageIO.framework in Frameworks */,
+				AFD506F118BF8A5C007C7A0B /* libicucore.dylib in Frameworks */,
+				AFD506F218BF8A5C007C7A0B /* libstdc++.dylib in Frameworks */,
+				AFD506F318BF8A5C007C7A0B /* libz.dylib in Frameworks */,
+				AFD506F418BF8A5C007C7A0B /* OpenGLES.framework in Frameworks */,
+				AFD506F518BF8A5C007C7A0B /* QuartzCore.framework in Frameworks */,
+				AFD506F618BF8A5C007C7A0B /* SystemConfiguration.framework in Frameworks */,
+				AFD506A418BF88C8007C7A0B /* CoreGraphics.framework in Frameworks */,
+				AFD506A618BF88C8007C7A0B /* UIKit.framework in Frameworks */,
+				AF3A2DCA1913BE8D0084FE78 /* GoogleMaps.framework in Frameworks */,
+				AFD506A218BF88C8007C7A0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD506BF18BF88C9007C7A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD506C418BF88C9007C7A0B /* XCTest.framework in Frameworks */,
+				AFD506C618BF88C9007C7A0B /* UIKit.framework in Frameworks */,
+				AFD506C518BF88C9007C7A0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF8416AA18C4C3D700782E5C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AF0F804F1914FAA3003EE9D1 /* daughter_b.png */,
+				AF0F80501914FAA3003EE9D1 /* father_b.png */,
+				AF0F80511914FAA3003EE9D1 /* mother_b.png */,
+				AF0F80521914FAA3003EE9D1 /* sun_b.png */,
+				AF8416AB18C4C43800782E5C /* father.png */,
+				AF8416AC18C4C43800782E5C /* sun.png */,
+				AF8416AD18C4C43800782E5C /* daughter.png */,
+				AF8416AE18C4C43800782E5C /* mother.png */,
+			);
+			name = images;
+			path = ../images;
+			sourceTree = "<group>";
+		};
+		AFD5069518BF88C8007C7A0B = {
+			isa = PBXGroup;
+			children = (
+				AFD506A718BF88C8007C7A0B /* matiawase */,
+				AFD506C918BF88C9007C7A0B /* matiawaseTests */,
+				AFD506A018BF88C8007C7A0B /* Frameworks */,
+				AFD5069F18BF88C8007C7A0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD5069F18BF88C8007C7A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD5069E18BF88C8007C7A0B /* matiawase.app */,
+				AFD506C218BF88C9007C7A0B /* matiawaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD506A018BF88C8007C7A0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF3A2DCB1913BEE00084FE78 /* GoogleMaps.bundle */,
+				AF3A2DC91913BE8D0084FE78 /* GoogleMaps.framework */,
+				AFD506DF18BF8A5C007C7A0B /* AVFoundation.framework */,
+				AFD506E018BF8A5C007C7A0B /* CoreData.framework */,
+				AFD506E118BF8A5C007C7A0B /* CoreLocation.framework */,
+				AFD506E218BF8A5C007C7A0B /* CoreText.framework */,
+				AFD506E318BF8A5C007C7A0B /* GLKit.framework */,
+				AFD506E418BF8A5C007C7A0B /* ImageIO.framework */,
+				AFD506E518BF8A5C007C7A0B /* libicucore.dylib */,
+				AFD506E618BF8A5C007C7A0B /* libstdc++.dylib */,
+				AFD506E718BF8A5C007C7A0B /* libz.dylib */,
+				AFD506E818BF8A5C007C7A0B /* OpenGLES.framework */,
+				AFD506E918BF8A5C007C7A0B /* QuartzCore.framework */,
+				AFD506EA18BF8A5C007C7A0B /* SystemConfiguration.framework */,
+				AFD506A118BF88C8007C7A0B /* Foundation.framework */,
+				AFD506A318BF88C8007C7A0B /* CoreGraphics.framework */,
+				AFD506A518BF88C8007C7A0B /* UIKit.framework */,
+				AFD506C318BF88C9007C7A0B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFD506A718BF88C8007C7A0B /* matiawase */ = {
+			isa = PBXGroup;
+			children = (
+				AFD506B018BF88C8007C7A0B /* AppDelegate.h */,
+				AFD506B118BF88C8007C7A0B /* AppDelegate.m */,
+				AFD506B318BF88C8007C7A0B /* Main_iPhone.storyboard */,
+				AFD506B618BF88C8007C7A0B /* Main_iPad.storyboard */,
+				AFD506B918BF88C8007C7A0B /* MainViewController.h */,
+				AFD506BA18BF88C8007C7A0B /* MainViewController.m */,
+				AF8416B618C4CF4100782E5C /* SettingViewController.h */,
+				AF8416B718C4CF4100782E5C /* SettingViewController.m */,
+				AFD506BC18BF88C8007C7A0B /* Images.xcassets */,
+				AF8416AA18C4C3D700782E5C /* images */,
+				AFD506A818BF88C8007C7A0B /* Supporting Files */,
+			);
+			path = matiawase;
+			sourceTree = "<group>";
+		};
+		AFD506A818BF88C8007C7A0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFD506A918BF88C8007C7A0B /* matiawase-Info.plist */,
+				AFD506AA18BF88C8007C7A0B /* InfoPlist.strings */,
+				AFD506AD18BF88C8007C7A0B /* main.m */,
+				AFD506AF18BF88C8007C7A0B /* matiawase-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFD506C918BF88C9007C7A0B /* matiawaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD506CF18BF88C9007C7A0B /* mytestappTests.m */,
+				AFD506CA18BF88C9007C7A0B /* Supporting Files */,
+			);
+			path = matiawaseTests;
+			sourceTree = "<group>";
+		};
+		AFD506CA18BF88C9007C7A0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFD506CB18BF88C9007C7A0B /* MatiawaseTests-Info.plist */,
+				AFD506CC18BF88C9007C7A0B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD5069D18BF88C8007C7A0B /* matiawase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD506D318BF88C9007C7A0B /* Build configuration list for PBXNativeTarget "matiawase" */;
+			buildPhases = (
+				AFD5069A18BF88C8007C7A0B /* Sources */,
+				AFD5069B18BF88C8007C7A0B /* Frameworks */,
+				AFD5069C18BF88C8007C7A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = matiawase;
+			productName = mytestapp;
+			productReference = AFD5069E18BF88C8007C7A0B /* matiawase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFD506C118BF88C9007C7A0B /* matiawaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD506D618BF88C9007C7A0B /* Build configuration list for PBXNativeTarget "matiawaseTests" */;
+			buildPhases = (
+				AFD506BE18BF88C9007C7A0B /* Sources */,
+				AFD506BF18BF88C9007C7A0B /* Frameworks */,
+				AFD506C018BF88C9007C7A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD506C818BF88C9007C7A0B /* PBXTargetDependency */,
+			);
+			name = matiawaseTests;
+			productName = mytestappTests;
+			productReference = AFD506C218BF88C9007C7A0B /* matiawaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD5069618BF88C8007C7A0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = com.tenkoro614;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = HirokiNakamura;
+				TargetAttributes = {
+					AFD5069D18BF88C8007C7A0B = {
+						DevelopmentTeam = U9A3XZ22Z7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					AFD506C118BF88C9007C7A0B = {
+						TestTargetID = AFD5069D18BF88C8007C7A0B;
+					};
+				};
+			};
+			buildConfigurationList = AFD5069918BF88C8007C7A0B /* Build configuration list for PBXProject "matiawase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				en_GB,
+				es,
+				fi,
+				fr,
+				he,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nl,
+				no,
+				pl,
+				pt,
+				pt_PT,
+				ro,
+				ru,
+				sk,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				zh_CN,
+				zh_TW,
+			);
+			mainGroup = AFD5069518BF88C8007C7A0B;
+			productRefGroup = AFD5069F18BF88C8007C7A0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD5069D18BF88C8007C7A0B /* matiawase */,
+				AFD506C118BF88C9007C7A0B /* matiawaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD5069C18BF88C8007C7A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3A2DCC1913BEE00084FE78 /* GoogleMaps.bundle in Resources */,
+				AF8416B018C4C43800782E5C /* sun.png in Resources */,
+				AFD506B818BF88C8007C7A0B /* Main_iPad.storyboard in Resources */,
+				AF0F80551914FAA3003EE9D1 /* mother_b.png in Resources */,
+				AF0F80541914FAA3003EE9D1 /* father_b.png in Resources */,
+				AF8416AF18C4C43800782E5C /* father.png in Resources */,
+				AF8416B218C4C43800782E5C /* mother.png in Resources */,
+				AFD506BD18BF88C8007C7A0B /* Images.xcassets in Resources */,
+				AF0F80531914FAA3003EE9D1 /* daughter_b.png in Resources */,
+				AFD506B518BF88C8007C7A0B /* Main_iPhone.storyboard in Resources */,
+				AF8416B118C4C43800782E5C /* daughter.png in Resources */,
+				AFD506AC18BF88C8007C7A0B /* InfoPlist.strings in Resources */,
+				AF0F80561914FAA3003EE9D1 /* sun_b.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD506C018BF88C9007C7A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD506CE18BF88C9007C7A0B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD5069A18BF88C8007C7A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD506AE18BF88C8007C7A0B /* main.m in Sources */,
+				AFD506BB18BF88C8007C7A0B /* MainViewController.m in Sources */,
+				AFD506B218BF88C8007C7A0B /* AppDelegate.m in Sources */,
+				AF8416B818C4CF4100782E5C /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD506BE18BF88C9007C7A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD506D018BF88C9007C7A0B /* mytestappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFD506C818BF88C9007C7A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD5069D18BF88C8007C7A0B /* matiawase */;
+			targetProxy = AFD506C718BF88C9007C7A0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFD506AA18BF88C8007C7A0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD506AB18BF88C8007C7A0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFD506B318BF88C8007C7A0B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD506B418BF88C8007C7A0B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AFD506B618BF88C8007C7A0B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD506B718BF88C8007C7A0B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AFD506CC18BF88C9007C7A0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD506CD18BF88C9007C7A0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFD506D118BF88C9007C7A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFD506D218BF88C9007C7A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD506D418BF88C9007C7A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.tenkoro614.matiawase";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.tenkoro614.matiawase";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/hiroknak/myroot/src/ios/matiawase/GoogleMaps-iOS-1.7.0/GoogleMapsSDKDemos",
+					"/Users/hiroknak/myroot/src/ios/matiawase/GoogleMaps-iOS-1.7.0",
+					"$(PROJECT_DIR)/GoogleMaps-iOS-1.7.0",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "matiawase/matiawase-Prefix.pch";
+				INFOPLIST_FILE = "matiawase/matiawase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = matiawase;
+				PROVISIONING_PROFILE = "88EECD55-CB56-4432-ABDC-032C46C42920";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFD506D518BF88C9007C7A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Production IOS Push Services: com.tenkoro614.matiawase";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Production IOS Push Services: com.tenkoro614.matiawase";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/hiroknak/myroot/src/ios/matiawase/GoogleMaps-iOS-1.7.0/GoogleMapsSDKDemos",
+					"/Users/hiroknak/myroot/src/ios/matiawase/GoogleMaps-iOS-1.7.0",
+					"$(PROJECT_DIR)/GoogleMaps-iOS-1.7.0",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "matiawase/matiawase-Prefix.pch";
+				INFOPLIST_FILE = "matiawase/matiawase-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = matiawase;
+				PROVISIONING_PROFILE = "88EECD55-CB56-4432-ABDC-032C46C42920";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFD506D718BF88C9007C7A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mytestapp.app/mytestapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mytestapp/mytestapp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "mytestappTests/MatiawaseTests-Info.plist";
+				PRODUCT_NAME = matiawaseTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AFD506D818BF88C9007C7A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mytestapp.app/mytestapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mytestapp/mytestapp-Prefix.pch";
+				INFOPLIST_FILE = "mytestappTests/MatiawaseTests-Info.plist";
+				PRODUCT_NAME = matiawaseTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD5069918BF88C8007C7A0B /* Build configuration list for PBXProject "matiawase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD506D118BF88C9007C7A0B /* Debug */,
+				AFD506D218BF88C9007C7A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD506D318BF88C9007C7A0B /* Build configuration list for PBXNativeTarget "matiawase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD506D418BF88C9007C7A0B /* Debug */,
+				AFD506D518BF88C9007C7A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD506D618BF88C9007C7A0B /* Build configuration list for PBXNativeTarget "matiawaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD506D718BF88C9007C7A0B /* Debug */,
+				AFD506D818BF88C9007C7A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFD5069618BF88C8007C7A0B /* Project object */;
+}
